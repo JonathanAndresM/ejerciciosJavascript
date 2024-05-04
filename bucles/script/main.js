@@ -21,7 +21,7 @@ console.log("Ejercicio 3")
 let numSecreto = 34
 let numSecretoIngresado
 let intentos = 0
-do{
+do {
     numSecretoIngresado = parseInt(prompt("Ingrese un Número"))
     if (numSecretoIngresado > numSecreto) {
         console.log("Ingresaste un número mayor");
@@ -53,22 +53,22 @@ while (numPrimo % primo != 0) {
 //Ejercicio 5
 console.log("Ejercicio 5")
 let numDivisor = parseInt(prompt("Ingrese un Número"))
-for (let dividir = 0; dividir < 10; dividir++){
-    let resultado = numDivisor/dividir
+for (let dividir = 0; dividir < 10; dividir++) {
+    let resultado = numDivisor / dividir
     console.log(resultado);
 }
 
 //Ejercicio 6
 console.log("Ejercicio 6")
 let marcaMoto = ["Yamaha", "BMW", "Honda", "Zanella", "Kawasaki", "Zusuki", "Motomel", "Brava", "Gilera", "Mondial"]
-for(let mensaje = 0; mensaje<marcaMoto.length; mensaje++){
+for (let mensaje = 0; mensaje < marcaMoto.length; mensaje++) {
     console.log(marcaMoto[mensaje]);
 }
 
 //Ejercicio 7
 console.log("Ejercicio 7")
 let numArray = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
-for(let mensaje = 0; mensaje<numArray.length; mensaje++){
+for (let mensaje = 0; mensaje < numArray.length; mensaje++) {
     console.log(numArray[mensaje]);
 }
 
@@ -79,36 +79,36 @@ let familia = [{
     edad: 34,
     altura: 170,
     cabelloColor: "Castaño"
-},{
+}, {
     nombre: "Daiana",
     edad: 33,
     altura: 164,
     cabelloColor: "Castaño"
-},{
+}, {
     nombre: "Francesco",
     edad: 7,
     altura: 123,
     cabelloColor: "Rubio"
-},{
+}, {
     nombre: "Norma",
     edad: 56,
     altura: 158,
     cabelloColor: "Rubio"
-},{
+}, {
     nombre: "Eduardo",
     edad: 55,
     altura: 170,
     cabelloColor: "Castaño"
 }]
-for (let element of familia){
+for (let element of familia) {
     console.table(element)
 }
-/*
+
 //Ejercicio 9
 console.log("Ejercicio 9")
-let numTodos = [1,2,3,4,5,6,7,8,9,10]
-for(let inpar of numTodos){
-    if(inpar % 2 != 0){
+let numTodos = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for (let inpar of numTodos) {
+    if (inpar % 2 != 0) {
         console.log(inpar)
     }
 }
@@ -125,12 +125,12 @@ while (numeroIngresado != 0) {
         pares = numeroIngresado + pares
         console.log(pares);
     }
-    if(numeroIngresado % 2 != 0){
+    if (numeroIngresado % 2 != 0) {
         inpares = numeroIngresado = parseInt(prompt("Ingrese un número"))
         inpares += numeroIngresado
         console.log(inpares);
     }
-}console.log("pares: " + pares + " inpares: " + inpares);
+} console.log("pares: " + pares + " inpares: " + inpares);
 
 
 //Ejercicio 11
@@ -182,18 +182,18 @@ for (let triangulo = 0; triangulo < 5; triangulo++) {
 
 //Ejercicio 15
 console.log("Ejercicio 15")
-/*let asteriscoInv = " "
+let asteriscoInv = " "
 for (let triangulo = 0; triangulo < 5; triangulo++) {
     let asterisco = '*'
     for (let invertir = 1; invertir < 5 - triangulo; invertir++) {
-      asterisco = asterisco = '*'
+        asterisco = asterisco = '*'
     }
     for (let invertir = 0; invertir < triangulo - 1; invertir++) {
-      asterisco = asterisco + ' '
+        asterisco = asterisco + ' '
     }
     console.log(asteriscoInv);
-  }
-*/
+}
+
 //Ejercicio 16
 console.log("Ejercicio 16")
 let desordenado = [56, 34, 84, 33, 7, 55, 70, 27, 21, 5];
