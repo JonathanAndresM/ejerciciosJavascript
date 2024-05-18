@@ -1,0 +1,13 @@
+.h{
+    min-height: 54vh;
+}
+
+.h-2{
+    height: 50%;
+}
+
+.img{
+    width: 35vw;
+    height: 15vw;
+    object-fit: cover;
+}
